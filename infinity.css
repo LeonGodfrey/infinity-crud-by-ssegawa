@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+body{
+	height: 100vh;
+	background-color: #f0f0f0;
+}
+.head{
+
+	height: 10vh;
+	width: 100%;
+	background-color:teal;
+	
+}
+.head > h1 {
+	text-align: center;
+	padding-top: 15px;
+	background-color: ;
+	color: #fff;
+}
+
+.body{
+	display: grid;
+	height: ;
+}
+
+.up{
+	display:flex ;
+	height:50vh;
+}
+
+
+.part{
+	height: 30vh;
+	width: 250px;
+	background-color: lightgray;
+	margin: 40px;
+}
+.part h3{
+	background-color: darkgray;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+	color: #fff;
+}
+
+.part ul{
+	list-style: none;
+	text-align: center;
+}
+.part ul li{
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.part ul li:nth-child(even){background-color: #f2f2f2;}
+
+.part ul li:hover {background-color: teal;}
+
+.form-area{
+	height: 45vh;
+	width: 600px;
+	background-color: darkgray;
+	margin: 20px 20px 20px 100px;
+	overflow: scroll;
+}
+.form-area h1 {
+	text-align: center;
+}
+form{
+	margin-left: 10px;
+}
+form label {
+	margin: 5px;
+	font-weight: bold;
+	display: block;
+}
+form select{
+	width: 100px;
+}
+form input{
+	margin-left: 5px;
+}
+
+.data{
+	background-color: #fff;
+	height: 35vh;
+	width: 1000px;
+	margin-left: 50px;
+	margin-bottom: 5px;
+	overflow: scroll;
+	
+}
+.data h2{
+	text-align: center;
+	/*color: #fff;*/
+}
+
+
+.table{
+	border: 1;
+	background-color: teal;
+	text-align: center;
+	align-self: center;
+}
+
+
+
+
+.foot{
+	background-color: lightgray;
+	height: 5vh;
+}
+.foot p{
+	text-align: center;
+	padding-top: 10px;
+	font-style: italic;
+	font-weight: bold;
+}
